@@ -38,5 +38,6 @@ const customers = [
 
 const carts = constructCarts(listings)
 
+
 carts(customers)
   .forEach(cart => console.log(`${cart.customer}, your cart contains ${util.inspect(cart.items)}`))
